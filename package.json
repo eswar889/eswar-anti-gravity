@@ -1,0 +1,14 @@
+{
+  "name": "gemini-llm-chatbot-project",
+  "version": "1.0.0",
+  "description": "Full-stack Gemini LLM Chatbot with distinct frontend and backend folders",
+  "scripts": {
+    "install:backend": "npm --prefix backend install",
+    "start:backend": "node backend/server.js",
+    "dev:backend": "node --watch backend/server.js",
+    "start:frontend": "npx -y serve frontend -l 3000",
+    "dev": "node start-dev.js",
+    "db:migrate": "node backend/migrate.js"
+  },
+  "devDependencies": {}
+}
